@@ -1,5 +1,3 @@
-# Quiz1_887342
-
 US ={"Alabama" => "AL",
 	"Alaska" => "AK",
 	"Arizona" => "AZ",
@@ -56,6 +54,6 @@ US ={"Alabama" => "AL",
 #US.each_key {|key| puts key }	
 #US.each_value {|value| value[1]=="T"||value[1]=="N"}
 
-US.each_value {|value| puts value[1]=="T"||value[1]=="N"}
+US.each_value {|value| puts value if value[1]=="T"||value[1]=="N"}
 
 
